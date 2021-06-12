@@ -12,4 +12,4 @@ sudo rm -rf node_modules
 sudo docker build -t examplenode .
 sudo npm install
 sudo docker run -d -p 80:3000 --name node-app examplenode
-echo "tested successfully"
+echo "tested successfully on github actions for nodejs."
